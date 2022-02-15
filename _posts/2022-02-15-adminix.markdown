@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Adminix overview"
+date: 2022-02-15 00:00:00 +0200
+categories: development
+tags: rails
+---
+
+Adminix is a low-code platform that allows building and deploying serverless workflows to the AWS cloud. Please read more at [Adminix website](https://www.adminix.io.)
+
+This solution is game-changing from my point of view. It allows writing code that a less technical person can control. Instead of writing a monolith application developer can split his logic into small functional pieces deployed to the AWS lambda functions. Every lambda function should be responsible only for one business action. For example, generating a single document or sending an email.
+
+{% include image.html file="adminix_aws_schema.png" alt="Adminix <> AWS schema" caption="Adminix <> AWS schema" %}

@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm a serial tech-entrepreneur with more than eight years of experience in SaaS development.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+My primary tech skills are:
+  - Building full-stack or API only apps using Ruby and Ruby on Rails
+  - Building full-stack or API only apps using Node.js
+  - Building SPA apps using React.js
+  - Building mobile apps using React native or Expo
+  - Designing complex databases using Postgresql, MySQL, MongoDB, and AWS DynamoDB
+  - AWS DevOps
