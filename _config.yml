@@ -30,7 +30,7 @@ telegram_username: christiandyl
 google_analytics: UA-153521090-1
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
