@@ -2,7 +2,9 @@
 layout: reveal
 ---
 
-<section data-autoslide="500">
+<section
+  data-autoslide="500"
+>
   <img
     src="{{ "/assets/images/christian_dyl_photo.jpg" | absolute_url }}"
     alt="Christian Dyl's photo"
@@ -20,12 +22,6 @@ layout: reveal
       data-autoslide="800"
     >
       Bonjour
-    </h3>
-    <h3
-      class="fragment fade-in-then-out"
-      data-autoslide="800"
-    >
-      Hello
     </h3>
     <h3
       class="fragment"
@@ -85,23 +81,54 @@ layout: reveal
 </section>
 
 <section data-autoslide="500">
+
+</section>
+
+<section data-autoslide="500">
   <h3
     class="fragment"
     data-autoslide="500"
   >
-    Before I tell you about my skills
+    What languages do I speak?
   </h3>
 
-  <p
-    class="fragment"
-    data-autoslide="0"
+  <div
+    class="row text-center"
   >
-    I used to work in various industries and startups.
-    In most companies, I was responsible for the entire development process.
-    I've worked with many technologies and programming languages.
-    Every project was a new challenge for me, so I had to spend a lot of time learning new things.
-    That's why I have a broader skill set compared to many other developers.
-  </p>
+    <div
+      class="fragment col-md-4"
+    >
+      <img
+        src="{{ "/assets/images/flags/ua.svg" | absolute_url }}"
+        alt="Ukrainian flag"
+        class=""img-fluid rounded w-25"
+      />
+      Native Ukrainian
+    </div>
+    
+    <div
+      class="fragment col-md-4"
+    >
+      <img
+        src="{{ "/assets/images/flags/us.svg" | absolute_url }}"
+        alt="USA flag"
+        class=""img-fluid rounded w-25"
+      />
+      Advanced English
+    </div>
+    
+    <div
+      class="fragment col-md-4"
+      data-autoslide="0"
+    >
+      <img
+        src="{{ "/assets/images/flags/fr.svg" | absolute_url }}"
+        alt="Flag of France"
+        class=""img-fluid rounded w-25"
+      />
+      Français (B1)
+    </div>
+  </div>
 </section>
 
 <section data-autoslide="500">
@@ -186,7 +213,7 @@ layout: reveal
     My secondary programming languages
   </h3>
 
-  <ul class="fragment list-group">
+  <ul class="fragment list-group pt-4">
     <li
       class="fragment list-group-item"
       data-autoslide="500"
@@ -300,6 +327,87 @@ layout: reveal
       <tr>
         <td colspan="3">
           Electron.js
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section data-autoslide="500">
+  <h3
+    class="fragment"
+    data-autoslide="500"
+  >
+    Backend frameworks I know
+  </h3>
+
+  <table
+    class="fragment table table-bordered"
+    data-autoslide="500"
+  >
+    <tbody>
+      <tr>
+        <td colspan="3">
+          Ruby
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Ruby on Rails
+        </td>
+        <td>
+          Sinatra
+        </td>
+        <td>
+          Hanami
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <table
+    class="fragment table table-bordered mt-2"
+    data-autoslide="500"
+  >
+    <tbody>
+      <tr>
+        <td colspan="3">
+          Node.js
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Express.js
+        </td>
+        <td>
+          Koa.js
+        </td>
+        <td>
+          Sails.js
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table
+    class="fragment table table-bordered mt-2"
+    data-autoslide="0"
+  >
+    <tbody>
+      <tr>
+        <td colspan="3">
+          Other
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Gatsby.js
+        </td>
+        <td>
+          Next.js
+        </td>
+        <td>
+          Phoenix
         </td>
       </tr>
     </tbody>
